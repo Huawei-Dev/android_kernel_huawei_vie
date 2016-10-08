@@ -30410,8 +30410,8 @@ OAL_STATIC oal_uint32  wal_hipriv_set_tx_classify_switch(oal_net_device_stru *ps
 /*lint -e19*/
 # if defined(CONFIG_MODULES)
 oal_module_symbol(wal_hipriv_proc_write);
-oal_module_symbol(wal_hipriv_get_mac_addr);
 #endif
+oal_module_symbol(wal_hipriv_get_mac_addr);
 /*lint +e19*/
 
 #ifdef __cplusplus
